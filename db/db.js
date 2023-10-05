@@ -9,6 +9,7 @@ const Main = async () => {
         console.log('There is one error in Mongodb');
     }
 }
+
 Main();
 const ContactShema = new mongoose.Schema({
     name: String,
